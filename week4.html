@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Times New Roman", serif;
+        }
+
+        /* Top navigation bar */
+        header {
+            background-color: #310505;
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 250px;
+        }
+
+        header img {
+            width: 80px;
+        }
+
+        header a {
+            color: rgb(0, 255, 85);
+            font-size: 18px;
+        }
+
+        /* Main box */
+        .container {
+            width: 450px;
+            margin: 55px auto;
+            background-color: rgb(112, 171, 176);
+            border: 2px solid black;
+            text-align: center;
+            padding: 40px 20px 25px;
+        }
+
+        h1 {
+            color: rgb(139, 0, 79);
+        }
+
+        h2 {
+            color: rgb(80, 14, 130);
+        }
+
+        .photo {
+            width: 120px;
+            height: 80px;
+            border: 3px solid black;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        ul {
+            text-align: left;
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        .website a {
+            font-size: 20px;
+            color: rgb(255, 0, 212);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="yes.jpeg" alt="Logo">
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#website">Website</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+
+        <h1>Prince Thapa Magar</h1>
+
+        <img class="photo" src="photo.jpg" alt="My photo">
+
+        <h2 id="about">About Me</h2>
+
+        <p>
+            Hello! My name is Prince Thapa Magar. I am a computer science
+            student and I am learning HTML, CSS and JavaScript.
+        </p>
+
+        <h2 id="skills">My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C#</li>
+        </ul>
+
+        <h2 id="website">My Website</h2>
+
+        <div class="website">
+            <a href="https://www.google.com">
+                Visit My Website
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
